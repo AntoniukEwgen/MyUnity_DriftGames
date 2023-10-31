@@ -15,7 +15,7 @@ D:/GitHubCloneRepository/MyUnity_DriftGames
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64708
+52476
 Successfully changed project path to: D:/GitHubCloneRepository/MyUnity_DriftGames
 D:/GitHubCloneRepository/MyUnity_DriftGames
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/GitHubCloneRepository/MyUnity_DriftGames
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3636] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 1402293611 [EditorId] 1402293611 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R9MA6N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5540] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 726401143 [EditorId] 726401143 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R9MA6N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3636] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 1402293611 [EditorId] 1402293611 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R9MA6N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5540] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 726401143 [EditorId] 726401143 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R9MA6N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 4.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.18f1 (2b639e48c919)
 [Subsystems] Discovering subsystems at path D:/Programs/Unity/Hub/Editor/2023.1.18f1/Editor/Data/Resources/UnitySubsystems
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'D:/Programs/Unity/Hub/Editor/2023.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programs/Unity/Hub/Editor/2023.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Programs/Unity/Hub/Editor/2023.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -87,47 +87,47 @@ Register platform support module: D:/Programs/Unity/Hub/Editor/2023.1.18f1/Edito
 Register platform support module: D:/Programs/Unity/Hub/Editor/2023.1.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: D:/Programs/Unity/Hub/Editor/2023.1.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Programs/Unity/Hub/Editor/2023.1.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.003633 seconds.
-- Loaded All Assemblies, in  0.425 seconds
+Registered in 0.003512 seconds.
+- Loaded All Assemblies, in  0.416 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 247 ms
+Android Extension - Scanning For ADB Devices 221 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.715 seconds
-Domain Reload Profiling: 1140ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 1034ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (185ms)
-		LoadAssemblies (130ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (166ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (715ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (619ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (666ms)
+		SetupLoadedEditorAssemblies (569ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (386ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			InitializePlatformSupportModulesInManaged (346ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,42 +150,42 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image D:\GitHubCloneRepository\MyUnity_DriftGames\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHubCloneRepository\MyUnity_DriftGames\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.997 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.944 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.719 seconds
-Domain Reload Profiling: 1715ms
-	BeginReloadAssembly (308ms)
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 1654ms
+	BeginReloadAssembly (300ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
+		CreateAndSetChildDomain (33ms)
 	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (593ms)
-		LoadAssemblies (347ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (317ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (355ms)
-			TypeCache.Refresh (332ms)
-				TypeCache.ScanAssembly (316ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (328ms)
+				TypeCache.ScanAssembly (311ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (719ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (711ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (452ms)
+		SetupLoadedEditorAssemblies (440ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
+			InitializePlatformSupportModulesInManaged (31ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (317ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -195,9 +195,39 @@ Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (53.3 KB). Loaded Objects now: 3667.
-Memory consumption went from 132.4 MB to 132.3 MB.
-Total: 5.771400 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.109300 ms MarkObjects: 5.204900 ms  DeleteObjects: 0.128500 ms)
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 5.162500 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.115000 ms MarkObjects: 4.562100 ms  DeleteObjects: 0.207200 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 976400.177171 seconds.
+  path: Assets/Car_Model/AE_86/AE_86.fbx
+  artifactKey: Guid(b36d556b56a1005438970fc394000f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car_Model/AE_86/AE_86.fbx using Guid(b36d556b56a1005438970fc394000f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e9e33af9ece03519b028648fc653de') in 0.856688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 518
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3711.
+Memory consumption went from 83.3 MB to 83.3 MB.
+Total: 4.545500 ms (FindLiveObjects: 0.285600 ms CreateObjectMapping: 0.099300 ms MarkObjects: 4.134200 ms  DeleteObjects: 0.025000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -211,155 +241,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 973751.321119 seconds.
-  path: Assets/Car_Model/AE_86/Seatbelt_metallic.jpg
-  artifactKey: Guid(865e3a88b66a6bc468537964888d7ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Seatbelt_metallic.jpg using Guid(865e3a88b66a6bc468537964888d7ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be33c3db5af129ef0d8d4ab14fa7d004') in 0.070780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Car_Model/AE_86/Tire_roughness.jpg
-  artifactKey: Guid(a2fad6d1aba04dc488acb01932ab8bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Tire_roughness.jpg using Guid(a2fad6d1aba04dc488acb01932ab8bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283a591132e14687a18518c6ce660211') in 0.018359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Car_Model/AE_86/WatanabeRim_roughness.jpg
-  artifactKey: Guid(77db038f57ca58846a5ac08e701a5098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/WatanabeRim_roughness.jpg using Guid(77db038f57ca58846a5ac08e701a5098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c5c1d68e923250460fe16c0e5a967b') in 0.009156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Car_Model/AE_86/SteeringWheel_metallic.jpg
-  artifactKey: Guid(b17122a2bb0650940a24a578a1894923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/SteeringWheel_metallic.jpg using Guid(b17122a2bb0650940a24a578a1894923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802aa2da72333a82de0ed020bdd992d8') in 0.013442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Car_Model/AE_86/Brake_Disc_roughness.jpg
-  artifactKey: Guid(df8dfd350ca71cb49a3932b75571631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Brake_Disc_roughness.jpg using Guid(df8dfd350ca71cb49a3932b75571631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cdaab530c75dee6fc427104d57c57f') in 0.009963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Car_Model/AE_86/internal_ground_ao_texture.jpeg
-  artifactKey: Guid(d66e6b5434efa3440979398d442793b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/internal_ground_ao_texture.jpeg using Guid(d66e6b5434efa3440979398d442793b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5f6fd2dfab80d4161c9865e9895085') in 0.018322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Car_Model/AE_86/Trim2_metalness.png
-  artifactKey: Guid(acc8a17ca85ed87469c262e0b5f559fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Trim2_metalness.png using Guid(acc8a17ca85ed87469c262e0b5f559fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641ba6ddad93d5dc35b4683f6a688d00') in 0.008509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Car_Model/AE_86/SteeringWheel_normal.jpg
-  artifactKey: Guid(5e7d6776da751234f9ba8bf7cef97aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/SteeringWheel_normal.jpg using Guid(5e7d6776da751234f9ba8bf7cef97aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d597ca6b441c9d8319fd0068ce3894') in 0.014068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Car_Model/AE_86/WatanabeRim_normal.jpg
-  artifactKey: Guid(bcea1c958570ae44c993f1be64d4f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/WatanabeRim_normal.jpg using Guid(bcea1c958570ae44c993f1be64d4f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d33e40e9a31f8f9f5cfc9b2cfe02273') in 0.009193 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Car_Model/AE_86/Seatbelt_normal.jpg
-  artifactKey: Guid(89f0b0d399e123f4794e242a5c2d152d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Seatbelt_normal.jpg using Guid(89f0b0d399e123f4794e242a5c2d152d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7665ff4761d7a05efe0902fd5d9cf7d') in 0.014450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Car_Model/AE_86/WatanabeRim_metallic.jpg
-  artifactKey: Guid(e4b14abae177f79448d327034212363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/WatanabeRim_metallic.jpg using Guid(e4b14abae177f79448d327034212363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06d6b35d2648cedce42ab3eb0a1a93c') in 0.018694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Car_Model/AE_86/BrakeCaliper_normal.jpg
-  artifactKey: Guid(da25b5ad8600857448a777b84ead7efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/BrakeCaliper_normal.jpg using Guid(da25b5ad8600857448a777b84ead7efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08aa10247f329f048399793e94cd1b4a') in 0.007279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Car_Model/AE_86/Interior_Bake1_pbr_normal.jpg
-  artifactKey: Guid(5e74c301da1072646aa1793ccb9be085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Interior_Bake1_pbr_normal.jpg using Guid(5e74c301da1072646aa1793ccb9be085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f735214cc3db5dbde5a0ef728490489c') in 0.012826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Car_Model/AE_86/Trim2_normal.png
-  artifactKey: Guid(57e696a3869b43b4c9f8d71b87879c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Trim2_normal.png using Guid(57e696a3869b43b4c9f8d71b87879c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8ccc2a644ea3870e905ac9f5dd23f1') in 0.008218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Car_Model/AE_86/Tire_normal.jpg
-  artifactKey: Guid(73e90d0cc4627b948ac6976db95fc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Tire_normal.jpg using Guid(73e90d0cc4627b948ac6976db95fc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccb4d1fb2c0a9090ee56ea1d51c20d0') in 0.011900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Car_Model/AE_86/Interior1_Normal.jpg
-  artifactKey: Guid(8b9f0110e0e5514409eefb6b26aa36fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Interior1_Normal.jpg using Guid(8b9f0110e0e5514409eefb6b26aa36fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f0f5491cf8a4ff2b91f908d3614923') in 0.008560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Car_Model/AE_86/Interior1_Roughness.jpg
-  artifactKey: Guid(c48d137611fc1694298843478208d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Interior1_Roughness.jpg using Guid(c48d137611fc1694298843478208d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65ccd535bd8c861ac830d3d1da0c2f2') in 0.011862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Car_Model/AE_86/Seatbelt_color.jpg
-  artifactKey: Guid(a782d8cce1a4dd44290ac5a676a4062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Seatbelt_color.jpg using Guid(a782d8cce1a4dd44290ac5a676a4062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c61c53bef8b9637ef917d3f7eb7949') in 0.007656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.275146 seconds.
-  path: Assets/Car_Model/AE_86/Trim2_normal.png
-  artifactKey: Guid(57e696a3869b43b4c9f8d71b87879c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Model/AE_86/Trim2_normal.png using Guid(57e696a3869b43b4c9f8d71b87879c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c17bef3988064c00f9337301647e1e') in 0.031026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
